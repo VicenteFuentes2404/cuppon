@@ -15,9 +15,9 @@
     <body>
 
       <header>
-        <nav class="navbar navbar-expand-lg">
-          <div class="container custom-navbar">
-            <a class="navbar-brand fw-bold" href="#">CUPPON</a>
+        <nav class="navbar navbar-expand-lg"> <!--expand-lg hace que se expanda horizontalmente en pant grandes y vertical en telef-->
+          <div class="container custom-navbar"> <!--container centraliza y le da ancho max a todo el contenido-->
+            <a class="navbar-brand fw-bold" href="#">CUPPON</a> <!--fw.bol texto en negrita-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -38,19 +38,19 @@
 
         <!--usamos Kitchen sink de bootstrap-->
         <main>
-          <section class="container my-5">      <!--grid de boostrap-->
-            <div class="row">
+          <section class="container my-5">  <!--para dar margen  -->    <!--grid de boostrap-->
+            <div class="row"> <!--fila grid de bootstrap-->
 
-              <div class="col-md-4 mb-4 d-flex justify-content-center">
-                <div class="card cuppon-card h-100" style="width: 18rem;">
-                  <img src="assets/img/image-asset.jpeg" class="card-img-top" alt="Producto 1">
+              <div class="col-md-4 mb-4 d-flex justify-content-center"> <!-- col-md-4: card usa 1/3 del ancho de pantalla, mb-4: agrega margen inferior en las card y d-flex justify-content-center: centra horizontalemente el contenido-->
+                <div class="card cuppon-card h-100" style="width: 18rem;"> <!--18 rem son 288px, usamos componente card de bootstrap-->
+                  <img src="assets/img/image-asset.jpeg" class="card-img-top" alt="Producto 1"> <!--card img top para dejar la imagen arriba de la tarjeta-->
                   <div class="card-body">
                     <h5 class="card-title">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
                     <p class="card-text text-secondary mb-1">Plumones Manolino</p>
                     <p class="card-text text-secondary"><i class="bi bi-geo-alt-fill"></i> 9191 Avenida Vitacura, Chile</p>
                   </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item d-flex justify-content-end gap-2">
+                  <ul class="list-group list-group-flush"> <!--mostrar listas estilizadas-->
+                    <li class="list-group-item d-flex justify-content-end gap-2"> <!-- alinea los precios y deja espacios-->
                       <span class="anterior text-muted text-decoration">$45.990</span>
                       <span class="actual fw-bold text-success">$22.990</span>
                     </li>

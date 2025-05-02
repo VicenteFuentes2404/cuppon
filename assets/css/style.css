@@ -1,10 +1,10 @@
 .custom-navbar {
     background-color: #009400;
     padding-top: 12px;
-    padding-bottom: 12px;
+    padding-bottom: 12px; /*agregar espacios vertical arriba y abajo */
   }
   
-.navbar-brand{
+.navbar-brand{      /*cuppon*/
     color: white;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
@@ -35,7 +35,7 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     height: 200px;
-    object-fit: cover;
+    object-fit: cover; /*para que la imagen llene la card sin deformarse*/
   }
   
   .cuppon-card .list-group-item {
